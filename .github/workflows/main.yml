@@ -1,0 +1,19 @@
+            - ad: APK eylemi
+  # Tam commit'e veya sürüme sabitleyebilirsiniz.
+  # uses: WaterLemons2k/apk-action@cfbbcbcf022ff828ee59f4c30fba177f27c95324
+  uses: WaterLemons2k/apk-action@v1.0.1
+  ile:
+    # Anahtar deposu dosyasının (.jks) içeriği, base64 kodlu
+    anahtar deposu:
+    # Anahtar deposunun parolası
+    anahtar deposu şifresi:
+    # Anahtarın diğer adı
+    anahtar-takma adı:
+    # Anahtarın şifresi
+    Anahtar-şifre:
+    # Kurulum yapılacak Java sürümü
+    Java sürümü: # isteğe bağlı
+    # Gradle'a iletilen argümanlar
+    gradle-args: # isteğe bağlı, varsayılan değer --no-daemon'dur
+
+          
