@@ -1,0 +1,19 @@
+name: Build Android APK
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Build APK with Buildozer
+      uses: digreatbrian/buildozer-action@v2
+      with:
+        command: buildozer android debug
